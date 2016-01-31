@@ -2,9 +2,8 @@ box: node:latest
 build:
   steps:
     - npm-install
-    - script:
-        name: build static files
-        code: npm run build
+    - grunt:
+        tasks production
 deploy:
   steps:
     - lukevivier/gh-pages@0.2.1:
