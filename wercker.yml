@@ -2,8 +2,7 @@ box: node:latest
 build:
   steps:
     - npm-install
-    - grunt:
-        tasks production
+    - grunt: tasks production
 deploy:
   steps:
     - lukevivier/gh-pages@0.2.1:
