@@ -1,0 +1,60 @@
+doctype html
+html(lang="jp")
+  include inc/head
+  body
+    div.l--wrap
+      include inc/header
+      article.l--content
+        section.m--box-topic
+          header
+            h1 更新情報
+          ul.m--list-rule.m--list-date
+            for newsObj in news
+              li
+                dl
+                  dt
+                    time(datetime='#{newsObj.date}') #{newsObj.date}
+                  dd
+                    if ( typeof newsObj.anchor !== 'undefined')
+                      a(href='#{newsObj.anchor}')
+                        | #{newsObj.text}
+                    else
+                      | #{newsObj.text}
+        section.m--box-topic
+          header
+            h1 同人誌
+          div.m--list-issue
+            ul#js-slide.m--list-issue-inner
+              for issueObj in issue
+                li.m--box-issue
+                  figure
+                    img(src='#{issueObj.img}', alt='#{issueObj.title}', width='140')
+                    figcaption
+                      h2 #{issueObj.title}
+                      ul.m--list-rule
+                        for val,index in issueObj.data
+                          li
+                            dl
+                              dt #{index}
+                              dd #{val}
+            ul.m--list-issue--ctrl
+              li#js-left left
+              li#js-right right
+          ol#js-slide--pager.m--list-pager--thumb
+            for issueObj in issue
+              li
+                img(src='#{issueObj.img}', alt='#{issueObj.title}', width='50')
+        //- section.m--box-topic
+        //-   header
+        //-     h1 ネット公開作品
+        //-   for worksObj in works
+        //-     section
+        //-       h1 #{worksObj.title}
+        //-       ol
+        //-         for chapterObj in worksObj.chapter
+        //-           li
+        //-             a(href='#{chapterObj.anchor}') #{chapterObj.title}
+      include inc/footer
+    include inc/script
+    script
+      | HS.Slider.init();

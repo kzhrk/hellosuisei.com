@@ -1,0 +1,154 @@
+{
+  "head": {
+    "title": "オリジナル創作文芸同人サークル HELLO-SUISEI",
+    "keywords": "コミケ,同人,HELLO-SUISEI,コミティア,同人小説,創作文芸,電子書籍,Kindle",
+    "description": "HELLO-SUISEIはコミックマーケット（コミケ）を中心に活動する創作文芸同人サークルです。",
+    "url": "http://hellosuisei.com/"
+  },
+  "news": [
+    {
+      "date": "2014-01-11",
+      "text": "サイトをリニューアルしました"
+    }
+  ],
+  "issue": [
+    {
+      "title": "WEB2.1",
+      "img": "/issue/images/p_web21.jpg",
+      "data": {
+        "著者": "水上啓",
+        "イラスト": "momota",
+        "媒体": "A5版オフセット 40ページ",
+        "初版": "2012.12.29",
+        "イベント": "コミックマーケット83"
+      }
+    },
+    {
+      "title": "影踏師は歩かない ver.β",
+      "img": "/issue/images/p_kagefumishi_verb.jpg",
+      "data": {
+        "著者": "水上啓",
+        "イラスト": "momota",
+        "媒体": "A5版コピー本 16ページ",
+        "初版": "2012.05.05",
+        "イベント": "コミティア100"
+      }
+    },
+    {
+      "title": "短篇集 vol.1",
+      "img": "/issue/images/p_shortstories_vol1_01.jpg",
+      "data": {
+        "著者": "水上啓",
+        "媒体": "A5版コピー誌 24ページ",
+        "初版": "2010.12.29",
+        "イベント": "コミックマーケット79"
+      }
+    },
+    {
+      "title": "ANGEL'S CALL",
+      "img": "/issue/images/p_angels_call.jpg",
+      "data": {
+        "著者": "水上啓",
+        "イラスト": "momota",
+        "媒体": "A5版コピー誌 32ページ",
+        "初版": "2010.08.15",
+        "イベント": "コミックマーケット78"
+      }
+    },
+    {
+      "title": "Brain Break Syndrome chart;VISION",
+      "img": "/issue/images/p_bbs_vision.jpg",
+      "data": {
+        "著者": "水上啓",
+        "イラスト": "momota、ア・ラヤン",
+        "媒体": "A5版コピー誌 68ページ",
+        "初版": "2008.12.30",
+        "イベント": "コミックマーケット75"
+      }
+    },
+    {
+      "title": "Brain Break Syndrome chart;AX",
+      "img": "/issue/images/p_bbs_ax.jpg",
+      "data": {
+        "著者": "水上啓",
+        "イラスト": "momota、ア・ラヤン、瑞貴明華",
+        "媒体": "A5版オフセット本 108ページ",
+        "初版": "2008.08.17",
+        "イベント": "コミックマーケット74"
+      }
+    },
+    {
+      "title": "Brain Break Syndrome chart;DUAL",
+      "img": "/issue/images/p_bbs_dual.jpg",
+      "data": {
+        "著者": "水上啓",
+        "イラスト": "momota、黒゜",
+        "媒体": "B5版コピー誌 72ページ",
+        "初版": "2008.05.05",
+        "イベント": "コミティア84"
+      }
+    },
+    {
+      "title": "人形遊び",
+      "img": "/issue/images/p_ningyou_asobi.jpg",
+      "data": {
+        "著者": "水上啓",
+        "イラスト": "momota",
+        "写真": "植松頌太",
+        "媒体": "新書コピー誌 28ページ",
+        "初版": "2007.10.08",
+        "イベント": "サンシャインクリエイション37"
+      }
+    },
+    {
+      "title": "ワクセイ vol.1 ver.β",
+      "img": "/issue/images/p_wakusei_vol1_verb.jpg",
+      "data": {
+        "著者": "水上啓",
+        "イラスト": "真里谷結蘭、momota",
+        "媒体": "新書コピー誌 40ページ",
+        "初版": "2007.08.19",
+        "イベント": "コミックマーケット72"
+      }
+    },
+    {
+      "title": "世界の亀裂 -World Divide-",
+      "img": "/issue/images/p_world_divide.jpg",
+      "data": {
+        "著者": "水上啓",
+        "イラスト": "momota",
+        "媒体": "新書オフセット 146ページ",
+        "初版": "2007.08.19",
+        "イベント": "コミックマーケット72"
+      }
+    }
+  ],
+  "works": [
+    {
+      "title": "Brain Break Syndrome case;AX",
+      "chapter": [
+        {
+          "title": "01/start",
+          "anchor": "/works/bbs_overflow/01.html"
+        },
+        {
+          "title": "02/self",
+          "anchor": "/works/bbs_overflow/02.html"
+        }
+      ]
+    },
+    {
+      "title": "Brain Break Syndrome case;AX",
+      "chapter": [
+        {
+          "title": "01/start",
+          "anchor": "/works/bbs_overflow/01.html"
+        },
+        {
+          "title": "02/self",
+          "anchor": "/works/bbs_overflow/02.html"
+        }
+      ]
+    }
+  ]
+}
