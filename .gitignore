@@ -1,6 +1,5 @@
 node_modules/
 .sass-cache/
-docs/
-dest/
+public/
 
 .DS_Store

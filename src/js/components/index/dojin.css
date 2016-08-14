@@ -1,0 +1,45 @@
+:local .wrap {
+  margin: 60px 50px 40px;
+}
+:local .title {
+  display: block;
+  font-size: 1.5em;
+}
+:local .list {
+  display: block;
+  margin-top: 10px;
+}
+:local .list > li {
+  display: block;
+  padding: 15px;
+  overflow: hidden;
+  border-bottom: 1px solid #333;
+}
+:local .list > li:first-child {
+  border-top: 1px solid #333;
+}
+:local .thumbnail {
+  float: left;
+}
+:local .data {
+  display: block;
+  margin-left: 170px;
+}
+:local .data h2 {
+  font-size: 1.2em;
+}
+:local .data ul {
+  display: block;
+  margin-top: 5px;
+}
+:local .data li {
+  display: block;
+  overflow: hidden;
+}
+:local .data dt {
+  float: left;
+}
+:local .data dd {
+  display: block;
+  margin-left: 6em;
+}

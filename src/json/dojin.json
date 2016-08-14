@@ -1,0 +1,112 @@
+[
+  {
+    "title": "WEB2.1",
+    "img": "/images/p_web21.jpg",
+    "data": [
+      { "key": "著者", "value": "水上啓" },
+      { "key": "イラスト", "value": "momota" },
+      { "key": "媒体", "value": "A5版オフセット 40ページ" },
+      { "key": "初版", "value": "2012-12-29" },
+      { "key": "イベント", "value": "コミックマーケット83" }
+    ]
+  },
+  {
+    "title": "影踏師は歩かない ver.β",
+    "img": "/images/p_kagefumishi_verb.jpg",
+    "data": [
+      { "key": "著者", "value": "水上啓" },
+      { "key": "イラスト", "value": "momota" },
+      { "key": "媒体", "value": "A5版コピー本 16ページ" },
+      { "key": "初版", "value": "2012-05-05" },
+      { "key": "イベント", "value": "コミティア100" }
+    ]
+  },
+  {
+    "title": "短篇集 vol.1",
+    "img": "/images/p_shortstories_vol1_01.jpg",
+    "data": [
+      { "key": "著者", "value": "水上啓" },
+      { "key": "媒体", "value": "A5版コピー誌 24ページ" },
+      { "key": "初版", "value": "2010-12-29" },
+      { "key": "イベント", "value": "コミックマーケット79" }
+    ]
+  },
+  {
+    "title": "ANGEL'S CALL",
+    "img": "/images/p_angels_call.jpg",
+    "data": [
+      { "key": "著者", "value": "水上啓" },
+      { "key": "イラスト", "value": "momota" },
+      { "key": "媒体", "value": "A5版コピー誌 32ページ" },
+      { "key": "初版", "value": "2010-08-15" },
+      { "key": "イベント", "value": "コミックマーケット78" }
+    ]
+  },
+  {
+    "title": "Brain Break Syndrome chart;VISION",
+    "img": "/images/p_bbs_vision.jpg",
+    "data": [
+      { "key": "著者", "value": "水上啓" },
+      { "key": "イラスト", "value": "momota、ア・ラヤン" },
+      { "key": "媒体", "value": "A5版コピー誌 68ページ" },
+      { "key": "初版", "value": "2008-12-30" },
+      { "key": "イベント", "value": "コミックマーケット75" }
+    ]
+  },
+  {
+    "title": "Brain Break Syndrome chart;AX",
+    "img": "/images/p_bbs_ax.jpg",
+    "data": [
+      { "key": "著者", "value": "水上啓" },
+      { "key": "イラスト", "value": "momota、ア・ラヤン、瑞貴明華" },
+      { "key": "媒体", "value": "A5版オフセット本 108ページ" },
+      { "key": "初版", "value": "2008-08-17" },
+      { "key": "イベント", "value": "コミックマーケット74" }
+    ]
+  },
+  {
+    "title": "Brain Break Syndrome chart;DUAL",
+    "img": "/images/p_bbs_dual.jpg",
+    "data": [
+      { "key": "著者", "value": "水上啓" },
+      { "key": "イラスト", "value": "momota、黒゜" },
+      { "key": "媒体", "value": "B5版コピー誌 72ページ" },
+      { "key": "初版", "value": "2008-05-05" },
+      { "key": "イベント", "value": "コミティア84" }
+    ]
+  },
+  {
+    "title": "人形遊び",
+    "img": "/images/p_ningyou_asobi.jpg",
+    "data": [
+      { "key": "著者", "value": "水上啓" },
+      { "key": "イラスト", "value": "momota" },
+      { "key": "写真", "value": "植松頌太" },
+      { "key": "媒体", "value": "新書コピー誌 28ページ" },
+      { "key": "初版", "value": "2007-10-08" },
+      { "key": "イベント", "value": "サンシャインクリエイション37" }
+    ]
+  },
+  {
+    "title": "ワクセイ vol.1 ver.β",
+    "img": "/images/p_wakusei_vol1_verb.jpg",
+    "data": [
+      { "key": "著者", "value": "水上啓" },
+      { "key": "イラスト", "value": "真里谷結蘭、momota" },
+      { "key": "媒体", "value": "新書コピー誌 40ページ" },
+      { "key": "初版", "value": "2007-08-19" },
+      { "key": "イベント", "value": "コミックマーケット72" }
+    ]
+  },
+  {
+    "title": "世界の亀裂 -World Divide-",
+    "img": "/images/p_world_divide.jpg",
+    "data": [
+      { "key": "著者", "value": "水上啓" },
+      { "key": "イラスト", "value": "momota" },
+      { "key": "媒体", "value": "新書オフセット 146ページ" },
+      { "key": "初版", "value": "2007-08-19" },
+      { "key": "イベント", "value": "コミックマーケット72" }
+    ]
+  }
+]

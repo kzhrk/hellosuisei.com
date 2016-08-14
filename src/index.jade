@@ -1,60 +1,27 @@
 doctype html
 html(lang="jp")
-  include inc/head
+  head
+    meta(charset='utf-8')
+    title オリジナル創作文芸同人サークル HELLO-SUISEI
+    meta(name='description', content='HELLO-SUISEIはコミックマーケット（コミケ）を中心に活動する創作文芸同人サークルです。')
+    meta(name='keywords', content='コミケ,同人,HELLO-SUISEI,コミティア,同人小説,創作文芸,電子書籍,Kindle')
+    meta(name='viewport', content='width=device-width,user-scalable=1')
+    meta(property='og:type', content='web')
+    meta(property='og:url', content='http://hellosuisei.com/')
+    meta(property='og:title', content='オリジナル創作文芸同人サークル HELLO-SUISEI')
+    meta(property='og:image', content='http://hellosuisei.com/images/p_fb_thumb.jpg')
+    meta(property='og:site_name', content='オリジナル創作文芸同人サークル HELLO-SUISEI')
+    meta(property='og:locale', content='ja_JP')
+    link(rel='start', href='http://hellosuisei.com/', title='ホーム')
+    link(rel='stylesheet', href='/css/main.css')
+    link(rel='icon', href='/favo.ico')
+    link(rel='canonical', href='http://hellosuis.com/')
+    script(src='/js/main.js', async)
   body
-    div.l--wrap
-      include inc/header
-      article.l--content
-        section.m--box-topic
-          header
-            h1 更新情報
-          ul.m--list-rule.m--list-date
-            for newsObj in news
-              li
-                dl
-                  dt
-                    time(datetime='#{newsObj.date}') #{newsObj.date}
-                  dd
-                    if ( typeof newsObj.anchor !== 'undefined')
-                      a(href='#{newsObj.anchor}')
-                        | #{newsObj.text}
-                    else
-                      | #{newsObj.text}
-        section.m--box-topic
-          header
-            h1 同人誌
-          div.m--list-issue
-            ul#js-slide.m--list-issue-inner
-              for issueObj in issue
-                li.m--box-issue
-                  figure
-                    img(src='#{issueObj.img}', alt='#{issueObj.title}', width='140')
-                    figcaption
-                      h2 #{issueObj.title}
-                      ul.m--list-rule
-                        for val,index in issueObj.data
-                          li
-                            dl
-                              dt #{index}
-                              dd #{val}
-            ul.m--list-issue--ctrl
-              li#js-left left
-              li#js-right right
-          ol#js-slide--pager.m--list-pager--thumb
-            for issueObj in issue
-              li
-                img(src='#{issueObj.img}', alt='#{issueObj.title}', width='50')
-        //- section.m--box-topic
-        //-   header
-        //-     h1 ネット公開作品
-        //-   for worksObj in works
-        //-     section
-        //-       h1 #{worksObj.title}
-        //-       ol
-        //-         for chapterObj in worksObj.chapter
-        //-           li
-        //-             a(href='#{chapterObj.anchor}') #{chapterObj.title}
-      include inc/footer
-    include inc/script
-    script
-      | HS.Slider.init();
+    script.
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-29985375-1', 'auto');
+      ga('send', 'pageview');
