@@ -1,3 +1,3 @@
 # HELLO-SUISEI
 
-This repository is a website date of kojin sākuru (personal circles).
+This repository is a website data of kojin sākuru (personal circles).
